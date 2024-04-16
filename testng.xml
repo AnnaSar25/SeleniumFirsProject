@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/admin/Desktop/pom.xml/src/test/java/automationExercise/SignUpFlowTest.java">
+        <classes>
+
+            <class name="automationExercise.tests.SignUpFlowTest">
+             <parameter name="browser" value="edge"></parameter>
+<!--                <parameter name="password" value="1234"></parameter>&ndash;&gt;-->
+                <methods>
+                    <include name="verifySignUp"/>
+                    <include name="verifyLoginFromLoginPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
